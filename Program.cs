@@ -20,7 +20,7 @@ class Program
 
         for (int i = 1; i < pokemons.Length; i++)
         {
-            Console.WriteLine($"En position {i} : {pokemons[i]}.");
+            Console.WriteLine($"En position {i /*System.Array.IndexOf(pokemons, pokemons[i])*/} : {pokemons[i]}.");
         }
 
         Console.WriteLine("Total: " + pokemons.Length + " pokémons!");
