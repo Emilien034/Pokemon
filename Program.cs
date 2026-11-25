@@ -18,9 +18,9 @@ class Program
     {
         string[] pokemons = {"Pikachu", "Dracaufeu", "Tortank", "Florizarre", "Ectoplasma", "Ronflex"};
 
-        for (int i = 1; i < pokemons.Length; i++)
+        for (int i = 0; i < pokemons.Length; i++)
         {
-            Console.WriteLine($"En position {i /*System.Array.IndexOf(pokemons, pokemons[i])*/} : {pokemons[i]}.");
+            Console.WriteLine($"En position {i + 1 /*System.Array.IndexOf(pokemons, pokemons[i])*/} : {pokemons[i]}.");
         }
 
         Console.WriteLine("Total: " + pokemons.Length + " pokémons!");
